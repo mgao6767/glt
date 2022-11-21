@@ -1,0 +1,13 @@
+{
+  "extends": "lighthouse:default",
+  "passes": [
+    {
+      "recordTrace": true,
+      "pauseAfterLoadMs": 5000,
+      "networkQuietThresholdMs": 5000
+    }
+  ],
+  "settings": {
+    "emulatedFormFactor": "desktop"
+  }
+}
